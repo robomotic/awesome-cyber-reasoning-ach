@@ -122,7 +122,13 @@ Both tools are used in cyber forensics and intelligence analysis to reason about
 
 ### What is ACH?
 
-Analysis of Competing Hypotheses (ACH) is a structured analytic technique that explicitly enumerates alternative explanations for an observed situation, maps evidence against each, and identifies which hypothesis best survives refutation. It was developed by Richard Heuer at the CIA and is widely adopted in DFIR, threat intelligence, and CTF analysis.
+Analysis of Competing Hypotheses (ACH) is a structured analytic technique that explicitly enumerates alternative explanations for an observed situation, maps evidence against each, and identifies which hypothesis best survives refutation.
+
+**Origin:** It was developed by **Richards J. Heuer Jr.** at the **Central Intelligence Agency (CIA)** in the 1970s to reduce cognitive bias in intelligence analysis.
+- **Key Reference:** Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence, CIA. (Specifically Chapter 8).
+- **Core concept:** We tend to look for evidence that confirms our favorite hypothesis; ACH forces us to look for evidence that *refutes* hypotheses.
+
+Its methodology is widely adopted in DFIR, threat intelligence, and CTF analysis.
 
 ### Knowledge Graph (KG)
 
