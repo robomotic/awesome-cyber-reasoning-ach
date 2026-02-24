@@ -194,9 +194,9 @@ Analyst decision / report
 | 4. Refine hypotheses | Extend/prune graph | Add/remove nodes; re-run inference |
 | 5. Draw conclusions | Subgraph visualisation | Rank by posterior; report sensitivity |
 
-## E. Download source list (for local collection)
+## E. Download references
 
-This is the normalized URL set referenced in this document:
+The articles so far also saved locally for reference.
 
 1. https://opendl.ifip-tc6.org/db/conf/ifip11-9/df2008/KwanCLL08.pdf
 2. https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/
