@@ -200,6 +200,44 @@ Analyst decision / report
 | 4. Refine hypotheses | Extend/prune graph | Add/remove nodes; re-run inference |
 | 5. Draw conclusions | Subgraph visualisation | Rank by posterior; report sensitivity |
 
+## G. Alternative Approaches: Formal Logic and Argumentation
+
+Beyond probabilistic BNs, some research formalizes ACH using **symbolic logic** and **abductive reasoning** (e.g., Prolog, Datalog, Answer Set Programming). These approaches focus on structural consistency and validity rather than just probability.
+
+### Key logic-based implementations
+
+| # | Approach | Logic/Language | Core contribution | Citation/Ref |
+|---|---|---|---|---|
+| L1 | **Subjective Logic ACH** | Subjective Logic (Jøsang) | Replaces qualitative ACH scores with a calculus for uncertainty and trust; explicitly models "abductive conditionals." | [Pope & Jøsang (2005)](https://ieeexplore.ieee.org/document/1453775) |
+| L2 | **Abductive Logic Programming (ALP)** | Prolog / ASP | Maps ACH to a logic program $(P, A, I)$ where hypotheses are *abducibles* $A$ that must entail observations $O$ without violating integrity constraints $I$. | [Kakas et al. (1992)](https://academic.oup.com/logcom/article/2/6/719/924823) |
+| L3 | **Argumentation Frameworks** | Argumentation Logic (e.g., Gorgias) | Treat hypotheses as conflicting goals/claims; evidence "attacks" or "supports" arguments. Handles inconsistent evidence better than probability alone. | [Murukannaiah & Singh (2015)](https://ieeexplore.ieee.org/document/7307632) |
+| L4 | **Hybrid Bayesian-Logic** | Probabilistic Prolog (ProbLog) | Fuses logical rules with probabilistic weights, effectively allowing ACH matrices to be reasoned over as a probabilistic program. | [Valtorta et al. (2005)](https://www.researchgate.net/publication/228833959_Extending_Heuer's_Analysis_of_Competing_Hypotheses_Method_to_Support_Complex_Decision_Analysis) |
+
+### Prolog implementation concept
+
+In a logic-based ACH (via ALP), you do not just "weigh" evidence; you solve for the set of hypotheses $\Delta$ such that:
+1. $\Delta \cup \text{Rules} \models \text{Evidence}$ (Explanation)
+2. $\Delta \cup \text{Rules} \nvDash \bot$ (Consistency)
+
+```prolog
+% Conceptual Prolog/ALP ACH schema
+% 1. Abducibles (the row headers in ACH)
+abducible(h_insider).
+abducible(h_apt_compromise).
+
+% 2. Background knowledge (the "if hypothesis, then expect evidence" rules)
+expect(log_deletion) :- h_insider.
+expect(beaconing) :- h_apt_compromise.
+
+% 3. Integrity constraints (hypotheses inconsistent with facts or each other)
+:- h_insider, h_apt_compromise.  % (If we assume mutually exclusive for this specific case)
+
+% 4. Solve (Meta-interpreter)
+% Find Deltas that explain observed evidence [log_deletion, beaconing]
+```
+
+This is fundamentally different from BNs: it tells you **which hypotheses are logically valid** explanations, whereas BNs tell you **which are most probable**.
+
 ## E. Download references
 
 The articles so far also saved locally for reference.
