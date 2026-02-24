@@ -1,0 +1,2840 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Ranking the Impact of Different Tests on a Hypothesis in a Bayesian Network - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="F2DFACDB99D9D9A306ACDB00021A3A60.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="entropy">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Entropy">
+<meta name="citation_title" content="Ranking the Impact of Different Tests on a Hypothesis in a Bayesian Network">
+<meta name="citation_author" content="Leila Schneps">
+<meta name="citation_author_institution" content="Institut de Mathématiques de Jussieu, Paris 75013, France">
+<meta name="citation_author" content="Richard Overill">
+<meta name="citation_author_institution" content="Department of Informatics, King’s College London, London WC2R 2LS, UK">
+<meta name="citation_author" content="David Lagnado">
+<meta name="citation_author_institution" content="Department of Experimental Psychology, University College London, London WC1H 0AP, UK">
+<meta name="citation_publication_date" content="2018 Nov 7">
+<meta name="citation_volume" content="20">
+<meta name="citation_issue" content="11">
+<meta name="citation_firstpage" content="856">
+<meta name="citation_doi" content="10.3390/e20110856">
+<meta name="citation_pmid" content="33266580">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/pdf/entropy-20-00856.pdf">
+<meta name="description" content="Testing of evidence in criminal cases can be limited by temporal or financial constraints or by the fact that certain tests may be mutually exclusive, so choosing the tests that will have maximal impact on the final result is essential. In this ...">
+<meta name="og:title" content="Ranking the Impact of Different Tests on a Hypothesis in a Bayesian Network">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Testing of evidence in criminal cases can be limited by temporal or financial constraints or by the fact that certain tests may be mutually exclusive, so choosing the tests that will have maximal impact on the final result is essential. In this ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="7512417">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.3390/e20110856"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/entropy-20-00856.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7512417%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/7512417/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/7512417/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-entropy.jpg" alt="Entropy logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to Entropy" title="Link to Entropy" shape="default" href="https://www.mdpi.com/journal/entropy" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Entropy (Basel)</button></div>. 2018 Nov 7;20(11):856. doi: <a href="https://doi.org/10.3390/e20110856" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.3390/e20110856</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Entropy%20(Basel)"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Entropy%20(Basel)"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Entropy%20(Basel)"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Entropy%20(Basel)"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Ranking the Impact of Different Tests on a Hypothesis in a Bayesian Network</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schneps%20L"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Leila Schneps</span></a><div hidden="hidden" id="id1">
+<h3><span class="name western">Leila Schneps</span></h3>
+<div class="p">
+<sup>1</sup>Institut de Mathématiques de Jussieu, Paris 75013, France</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schneps%20L"[Author]' class="usa-link"><span class="name western">Leila Schneps</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Overill%20R"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Richard Overill</span></a><div hidden="hidden" id="id2">
+<h3><span class="name western">Richard Overill</span></h3>
+<div class="p">
+<sup>2</sup>Department of Informatics, King’s College London, London WC2R 2LS, UK</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Overill%20R"[Author]' class="usa-link"><span class="name western">Richard Overill</span></a>
+</div>
+</div>
+<sup>2,</sup><sup>*</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lagnado%20D"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">David Lagnado</span></a><div hidden="hidden" id="id3">
+<h3><span class="name western">David Lagnado</span></h3>
+<div class="p">
+<sup>3</sup>Department of Experimental Psychology, University College London, London WC1H 0AP, UK</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lagnado%20D"[Author]' class="usa-link"><span class="name western">David Lagnado</span></a>
+</div>
+</div>
+<sup>3</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="af1-entropy-20-00856">
+<sup>1</sup>Institut de Mathématiques de Jussieu, Paris 75013, France</div>
+<div id="af2-entropy-20-00856">
+<sup>2</sup>Department of Informatics, King’s College London, London WC2R 2LS, UK</div>
+<div id="af3-entropy-20-00856">
+<sup>3</sup>Department of Experimental Psychology, University College London, London WC1H 0AP, UK</div>
+<div class="author-notes p"><div class="fn" id="c1-entropy-20-00856">
+<sup>*</sup><p class="display-inline">Correspondence: <span>richard.overill@kcl.ac.uk</span>; Tel.: +44-020-7848-2833</p>
+</div></div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Received 2018 Aug 31; Accepted 2018 Oct 31; Collection date 2018 Nov.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© 2018 by the authors.</div>
+<p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<a href="http://creativecommons.org/licenses/by/4.0/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>).</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC7512417  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33266580/" class="usa-link">33266580</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p>Testing of evidence in criminal cases can be limited by temporal or financial constraints or by the fact that certain tests may be mutually exclusive, so choosing the tests that will have maximal impact on the final result is essential. In this paper, we assume that a main hypothesis, evidence for it and possible tests for existence of this evidence are represented in the form of a Bayesian network, and use three different methods to measure the impact of a test on the main hypothesis. We illustrate the methods by applying them to an actual digital crime case provided by the Hong Kong police. We conclude that the Kullback–Leibler divergence is the optimal method for selecting the tests with the highest impact.</p>
+<section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> Bayesian networks, impact measures, Kullback–Leibler divergence, tornado method</p></section></section><section id="sec1-entropy-20-00856"><h2 class="pmc_sec_title">1. Introduction</h2>
+<p>In this article, we consider the situation of a hypothesis whose probability can be updated given the results of a series of tests. Our work is motivated by the fact that this situation arises very typically in the course of criminal investigations, when the initial hypothesis concerns the guilt of a suspect, and actual forensic testing is to be applied to material pieces of evidence. Our goal is to rank the possible tests in order of the impact they will have on the probability of guilt. Such a ranking has useful applications, as we will show on a concrete example, in cases where one can perform a great number of different tests at significant cost of time and money, and one would like to begin with the most important ones, and exclude those that can only have minimal impact at best. Similarly, the method can be useful to decide which test to perform in cases where one must choose between one of two possible tests, for example between determination of the mixed DNA profile or of the Y-haplotype in the case of a low-template mixed DNA sample from a murder victim, on which only one reliable test can be performed due to the limited quantity.</p>
+<p>In order to give a rigorous definition of the notion of impact, we assume that the evidence is represented in the form of a Bayesian network (cf. [<a href="#B1-entropy-20-00856" class="usa-link" aria-describedby="B1-entropy-20-00856">1</a>,<a href="#B2-entropy-20-00856" class="usa-link" aria-describedby="B2-entropy-20-00856">2</a>] for a basic reference) with one particular node selected as the main hypothesis, and a collection of terminal nodes (nodes with no children) corresponding to specific forensic tests, the result of each of which has the power to modify and update the probability of the main hypothesis. We will establish a measure of impact of each test in such a way that, at each stage of testing, one can determine which is the best next test to perform for maximal impact. This approach also naturally yields the notion of a <em>threshold of usefulness</em> below which the remaining tests are not sufficiently useful to justify performing them, which will be applicable in situations where there are many possible tests but not enough time, resources or material to perform them all.</p>
+<p>The general notion that acquiring new information updates the probability of a hypothesis is not new. It was the original motivation for Bayes’ theorem (proved by Bayes in 1763), and underlies the recent push to use the theorem in the context of criminal inquiries in order to quantify just how much effect a given fact actually has on the hypothesis of guilt; to give, in other words, a mathematical meaning to the phrase “weight of evidence”. Similarly, the notion of entropy (which we recall below) is used to measure the result of new information or knowledge in the form of reduction in doubt, or reduction in uncertainty [<a href="#B3-entropy-20-00856" class="usa-link" aria-describedby="B3-entropy-20-00856">3</a>]. These questions are related to the psychology of investigation and decision-making and the study of optimal strategies, which are the focus of intensive study (see, for example, [<a href="#B4-entropy-20-00856" class="usa-link" aria-describedby="B4-entropy-20-00856">4</a>,<a href="#B5-entropy-20-00856" class="usa-link" aria-describedby="B5-entropy-20-00856">5</a>]).</p>
+<p>The novelty of our approach in this paper consists in bolstering the investigator’s intuitive approach by assessing the importance of a piece of evidence <em>before</em> any tests on it have been performed, thus before any actual new fact is added to the investigator’s knowledge. Our measure of impact is based only on the probabilities of the various possible outcomes of testing, and provides a concrete algorithm for the investigator to select the tests to be performed with highest priority.</p>
+<p>Because our first step must be to define the notion of the impact of an unperformed test, we began by investigating various different methods. In <a href="#sec2-entropy-20-00856" class="usa-link">Section 2</a> below, we introduce three possible methods for assessing the impact of a test on the selected hypothesis:</p>
+<ul class="list" style="list-style-type:disc">
+<li><p>the <em>expected information gain method</em>, based on the Kullback–Leibler formula for information gain [<a href="#B6-entropy-20-00856" class="usa-link" aria-describedby="B6-entropy-20-00856">6</a>],</p></li>
+<li><p>the <em>tornado</em> method [<a href="#B7-entropy-20-00856" class="usa-link" aria-describedby="B7-entropy-20-00856">7</a>],</p></li>
+<li><p>the <em>single missing item</em> method [<a href="#B8-entropy-20-00856" class="usa-link" aria-describedby="B8-entropy-20-00856">8</a>].</p></li>
+</ul>
+<p>In <a href="#sec3-entropy-20-00856" class="usa-link">Section 3</a>, we discuss the advantages and disadvantages of each method on theoretical examples, and argue that the expected information gain method has a distinct advantage over the other methods. In <a href="#sec4-entropy-20-00856" class="usa-link">Section 4</a>, we apply and compare the methods on a specific example of a type of crime studied by the Hong Kong Police Department: illegal file sharing using Bit Torrent. In this type of crime, a user performs a series of digital operations, each of which leaves a possible trace on his computer (according to the ability of the user to erase his digital tracks) that may be detected by digital forensic analysis. From an observation of the procedure used by Hong Kong police to examine a computer seized on suspicion of this type of crime [<a href="#B9-entropy-20-00856" class="usa-link" aria-describedby="B9-entropy-20-00856">9</a>,<a href="#B10-entropy-20-00856" class="usa-link" aria-describedby="B10-entropy-20-00856">10</a>] together with interviews with thirty-one experienced digital forensic examiners, the authors of [<a href="#B11-entropy-20-00856" class="usa-link" aria-describedby="B11-entropy-20-00856">11</a>] established a Bayesian network model for the digital investigation, showing that there are 18 forensic tests that can be performed to verify five subhypotheses, each of which supports the main hypothesis that the suspect’s computer was used for file sharing using Bit Torrent. Our analysis in <a href="#sec4-entropy-20-00856" class="usa-link">Section 4</a> is based on their Bayesian network.</p></section><section id="sec2-entropy-20-00856"><h2 class="pmc_sec_title">2. Three Methods to Choose the Most Important Test</h2>
+<p>Consider a Bayesian network with discrete-valued nodes, equipped with the following extra data:</p>
+<ul class="list" style="list-style-type:disc">
+<li><p>One distinguished node that we call <em>G</em>; item A subset of terminal nodes, which we call <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm1"><mrow><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>E</mi><mi>m</mi></msub></mrow></mrow></math></span>;</p></li>
+<li><p>A given state for all the other nodes of the network, which can be either fixed to one of their values, or unfixed.</p></li>
+</ul>
+<p>We may think about the selected node <em>G</em> as the “guilt node” and the chosen terminal nodes as “test nodes” corresponding to various actual forensic tests that can be performed, and whose results will modify the probabilities of the hypotheses of the node <em>G</em> (“guilt”).</p>
+<p>Given this data, we will discuss three different methods to assess the impact that each test will have on the selected node. These methods produce an ordering of tests by impact as follows: one starts by measuring the impact of each test, then one performs the test with maximal impact, inserts the result into the Bayesian network, and starts the process again, using the method to assess the impact of each test, selecting the most useful one, performing it, etc. We note that, except for the third method presented below, the most useful test at any stage may depend on the actual result of the previous test. Although one may use our methods to produce a ranking of tests before beginning the testing, the ranking of later tests may not be optimal given the results of the earlier tests, so we do not recommend using the methods in this manner (except for the third one).</p>
+<p>The first method is the one necessitating the longest explanation, as we give a short introduction to the Kullback–Leibler formula.</p>
+<section id="sec2dot1-entropy-20-00856"><h3 class="pmc_sec_title">2.1. The Expected Information Gain Method</h3>
+<p>For <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm2"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>i</mi><mo>≤</mo><mi>m</mi></mrow></mrow></math></span>, let <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm3"><mrow><msub><mi>e</mi><mi>i</mi></msub></mrow></math></span> be the number of values of the node <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm4"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span>, and let <em>g</em> denote the number of values of <em>G</em> (for instance, if the values of <em>G</em> are true/false, then <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm5"><mrow><mrow><mi>g</mi><mo>=</mo><mn>2</mn></mrow></mrow></math></span>). We write <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm6"><mrow><mrow><mi>G</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo><mo>,</mo><mo>…</mo><mo>,</mo><mi>G</mi><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow></math></span> for the values of the node <em>G</em>, and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm7"><mrow><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></math></span> for the values of the node <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm8"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span>.</p>
+<p>We first give the Kullback–Leibler formula, which computes the information gain on the node <em>G</em> associated to each possible result of each test, i.e., to each given outcome <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm9"><mrow><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm10"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>i</mi><mo>≤</mo><mi>m</mi></mrow></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm11"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>j</mi><mo>≤</mo><msub><mi>e</mi><mi>i</mi></msub></mrow></mrow></math></span>. We write <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm12"><mrow><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup></mrow></math></span> for this information gain; it is the <em>Kullback–Leibler divergence from the distribution <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm13"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mfenced></mrow></mrow></math></span> to <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm14"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mrow></mrow></math></span></em>, given by
+</p>
+<table class="disp-formula p" id="disp-formula1"><tr><td class="formula"><math id="mm15" display="block"><mrow><mrow><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup><mo>=</mo><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced open="(" close=")"><mfrac><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow></mfrac></mfenced><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>Note that we choose to use the base <em>g</em> logarithm, which scales the result so that the information gain in the case where the initial state is zero knowledge (maximal entropy) and the final state is absolute knowledge (zero entropy), is equal to 1. We note that, if the initial state is not one of zero knowledge, then the information gain can be greater than 1, which indicates that a prior estimate has been reversed. For instance, if <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm16"><mrow><mrow><mi>g</mi><mo>=</mo><mn>2</mn></mrow></mrow></math></span> and
+</p>
+<table class="disp-formula p" id="disp-formula2"><tr><td class="formula"><math id="mm17" display="block"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mfenced><mo>=</mo><mn>0.1</mn><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mfenced><mo>=</mo><mn>0.9</mn></mrow></mrow></math></td></tr></table>
+<p>
+are the prior probabilities, then, if after performing the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm18"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> and obtaining the result <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm19"><mrow><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow><mo>,</mo></mrow></mrow></math></span> we have posterior probabilities
+</p>
+<table class="disp-formula p" id="disp-formula3"><tr><td class="formula"><math id="mm20" display="block"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mo>=</mo><mn>0.2</mn><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mo>=</mo><mn>0.8</mn><mo>,</mo></mrow></mrow></math></td></tr></table>
+<p>
+the information gain will be <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm21"><mrow><mrow><mn>0.064</mn></mrow></mrow></math></span>, but, if instead the posterior probabilities are given by
+</p>
+<table class="disp-formula p" id="disp-formula4"><tr><td class="formula"><math id="mm22" display="block"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mo>=</mo><mn>0.8</mn><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mo>=</mo><mn>0.2</mn><mo>,</mo></mrow></mrow></math></td></tr></table>
+<p>
+strongly reversing the priors, we find that the information gain is <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm23"><mrow><mrow><mn>2.536</mn></mrow></mrow></math></span>.</p>
+<blockquote class="text-italic">
+<h4>
+<strong>Lemma</strong> <strong>1.</strong>
+</h4>
+<p class="display-inline">
+<em>The information gain <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm24"><mrow><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup></mrow></math></span> is always positive.</em>
+</p>
+</blockquote>
+<blockquote class="text-italic">
+<h4>
+<strong>Proof.</strong> </h4>
+<p class="display-inline">This follows from applying Jensen’s formula to the log function; for a finite collection <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm25"><mrow><msub><mi>a</mi><mi>k</mi></msub></mrow></math></span> of positive real numbers and a finite collection <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm26"><mrow><msub><mi>h</mi><mi>k</mi></msub></mrow></math></span> of real numbers, we have Jensen’s inequality
+</p>
+<table class="disp-formula p" id="disp-formula5"><tr><td class="formula"><math id="mm27" display="block"><mrow><mrow><mfrac><mrow><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>a</mi><mi>k</mi></msub><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mrow><mo stretchy="false">(</mo><msub><mi>h</mi><mi>k</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mrow><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>a</mi><mi>k</mi></msub></mrow></mfrac><mo>≤</mo><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced open="(" close=")"><mfrac><mrow><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>a</mi><mi>k</mi></msub><msub><mi>h</mi><mi>k</mi></msub></mrow><mrow><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>a</mi><mi>k</mi></msub></mrow></mfrac></mfenced><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>In our case, for each fixed pair <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm28"><mrow><mrow><mo stretchy="false">(</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow></math></span> with <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm29"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>i</mi><mo>≤</mo><mi>g</mi></mrow></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm30"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>j</mi><mo>≤</mo><msub><mi>e</mi><mi>i</mi></msub></mrow></mrow></math></span>, we take
+</p>
+<table class="disp-formula p" id="disp-formula6"><tr><td class="formula"><math id="mm31" display="block"><mrow><mrow><msub><mi>a</mi><mi>k</mi></msub><mo>=</mo><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>g</mi></mrow></mrow></math></td></tr></table>
+<p>
+and
+</p>
+<table class="disp-formula p" id="disp-formula7"><tr><td class="formula"><math id="mm32" display="block"><mrow><mrow><msub><mi>h</mi><mi>k</mi></msub><mo>=</mo><mfrac><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mrow></mfrac><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>g</mi><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>With these values, we have <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm33"><mrow><mrow><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></msubsup><msub><mi>a</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn></mrow></mrow></math></span>, so Jensen’s formula simplifies to
+</p>
+<table class="disp-formula p" id="FD1-entropy-20-00856"><tr>
+<td class="formula"><math id="mm34" display="block"><mrow><mrow><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><msub><mi>a</mi><mi>k</mi></msub><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mrow><mo stretchy="false">(</mo><msub><mi>h</mi><mi>k</mi></msub><mo stretchy="false">)</mo></mrow><mo>≤</mo><msub><mo form="prefix">log</mo><mi>g</mi></msub><mrow><mo stretchy="false">(</mo><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><msub><mi>a</mi><mi>k</mi></msub><msub><mi>h</mi><mi>k</mi></msub><mo stretchy="false">)</mo></mrow><mo>.</mo><mspace width="2.em"></mspace></mrow></mrow></math></td>
+<td class="label">(1)</td>
+</tr></table>
+<p>The left-hand side of (1) is equal to <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm35"><mrow><mrow><mo>−</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup></mrow></mrow></math></span>, and the right-hand side of (1) simplifies to
+</p>
+<table class="disp-formula p" id="disp-formula9"><tr><td class="formula"><math id="mm36" display="block"><mrow><mrow><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced separators="" open="(" close=")"><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mfenced></mfenced><mo>=</mo><msub><mo form="prefix">log</mo><mi>g</mi></msub><mrow><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>0</mn><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>Thus, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm37"><mrow><mrow><mo>−</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup><mo>≤</mo><mn>0</mn></mrow></mrow></math></span>, which proves the claim. □</p>
+</blockquote>
+<p>We can now define the <em>expected information gain <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm38"><mrow><msubsup><mi>I</mi><msub><mi>E</mi><mi>i</mi></msub><mi>G</mi></msubsup></mrow></math></span> on G from <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm39"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span></em> to be the sum of the information gain terms <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm40"><mrow><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup></mrow></math></span>, weighted by the probabilities of the results <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm41"><mrow><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math></span>, i.e., we set
+</p>
+<table class="disp-formula p" id="FD2-entropy-20-00856"><tr>
+<td class="formula"><math id="mm42" display="block"><mrow><mrow><msubsup><mi>I</mi><msub><mi>E</mi><mi>i</mi></msub><mi>G</mi></msubsup><mo>=</mo><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><msub><mi>e</mi><mi>i</mi></msub></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><msubsup><mi>I</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow><mi>G</mi></msubsup><mo>=</mo><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><msub><mi>e</mi><mi>i</mi></msub></munderover></mstyle><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced open="(" close=")"><mfrac><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow></mfrac></mfenced><mo>.</mo><mspace width="2.em"></mspace></mrow></mrow></math></td>
+<td class="label">(2)</td>
+</tr></table>
+<p>The expected information gain <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm43"><mrow><msubsup><mi>I</mi><msub><mi>E</mi><mi>i</mi></msub><mi>G</mi></msubsup></mrow></math></span> is in fact equal to the difference between the expected entropy of <em>G</em> after applying the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm44"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span>, given by
+</p>
+<table class="disp-formula p" id="disp-formula11"><tr><td class="formula"><math id="mm45" display="block"><mrow><mrow><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><msub><mi>e</mi><mi>i</mi></msub></munderover></mstyle><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced separators="" open="(" close=")"><mi>P</mi><mo stretchy="false">(</mo><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mfenced></mrow></mrow></math></td></tr></table>
+<p>
+and the prior entropy of <em>G</em> before performing the test, given by
+</p>
+<table class="disp-formula p" id="disp-formula12"><tr><td class="formula"><math id="mm46" display="block"><mrow><mrow><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>g</mi></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mfenced><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mi>g</mi></msub><mfenced separators="" open="(" close=")"><mi>P</mi><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mfenced><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>The Kullback–Leibler formula measures the divergence between two probability distributions on the <em>G</em> hypothesis: the prior <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm47"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mi>G</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mfenced></mrow></mrow></math></span> (probability of guilt before testing) and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm48"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>G</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mrow></mrow></math></span> (probability of guilt after performing the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm49"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> and obtaining the result <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm50"><mrow><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math></span>).</p></section><section id="sec2dot2-entropy-20-00856"><h3 class="pmc_sec_title">2.2. The Tornado Method</h3>
+<p>When the nodes <em>G</em> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm51"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> are Boolean (or even if they are not Boolean, but have True and False among their possible values), a cruder method called the tornado method (This method is implemented, for example, in the AgenaRisk Bayesian network software [<a href="#B12-entropy-20-00856" class="usa-link" aria-describedby="B12-entropy-20-00856">12</a>], pp. 99–102.) can be used to rank the tests <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm52"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span>. The tornado method consists of computing the impact of a test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm53"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> on the truth or falsehood of <em>G</em> as the difference
+</p>
+<table class="disp-formula p" id="FD3-entropy-20-00856"><tr>
+<td class="formula"><math id="mm54" display="block"><mrow><mrow><msubsup><mi>T</mi><msub><mi>E</mi><mi>i</mi></msub><mi>G</mi></msubsup><mo>=</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>G</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mi>i</mi></msub><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo></mrow><mo>−</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>G</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mi>i</mi></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo></mrow><mspace width="2.em"></mspace></mrow></mrow></math></td>
+<td class="label">(3)</td>
+</tr></table>
+<p>
+and taking the most important test to be the one for which this impact is maximal (The name tornado arises because graphing the impacts as horizontal bars along the real axis from largest to smallest creates a tornado shape).</p></section><section id="sec2dot3-entropy-20-00856"><h3 class="pmc_sec_title">2.3. The Single Missing Item Method</h3>
+<p>Again, this method is best adapted to the Boolean situation but can be used if True and False are among the node values. This method relies on assessing how much information is lost if all the tests are positive except for one, as opposed to all the tests being positive. The formula is given by
+</p>
+<table class="disp-formula p" id="FD4-entropy-20-00856"><tr>
+<td class="formula"><math id="mm55" display="block"><mrow><mrow><msubsup><mi>S</mi><msub><mi>E</mi><mi>i</mi></msub><mi>G</mi></msubsup><mo>=</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>G</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mi>i</mi></msub><mo>=</mo><mi>True</mi><mspace width="4pt"></mspace><mrow><mi>for</mi><mspace width="4pt"></mspace><mi>all</mi></mrow><mspace width="4pt"></mspace><mi>i</mi><mo stretchy="false">)</mo></mrow><mo>−</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>G</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mi>i</mi></msub><mo>=</mo><mi>False</mi><mo>,</mo><mspace width="4pt"></mspace><msub><mi>E</mi><mi>j</mi></msub><mo>=</mo><mi>True</mi><mspace width="4pt"></mspace><mi>for</mi><mspace width="4pt"></mspace><mi>j</mi><mo>≠</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mspace width="2.em"></mspace></mrow></mrow></math></td>
+<td class="label">(4)</td>
+</tr></table></section></section><section id="sec3-entropy-20-00856"><h2 class="pmc_sec_title">3. Comparison of the Methods</h2>
+<p>In this section, we will give an analytical comparison of the three methods, and argue using theoretical cases that the expected information gain method using the Kullback-Leibler formula is the best one. One of the reasons for this is simply that the other two methods share one important feature which diminishes their validity significantly in situations where the Bayesian network under consideration is not Boolean: namely, they take into account only the positive or negative values of each test. The more a panoply of tests may have non-Boolean outcomes, and, in particular, the larger the probabilities of the outcomes that are not strictly positive or negative, the more information from the network is ignored by these two methods.</p>
+<section id="sec3dot1-entropy-20-00856"><h3 class="pmc_sec_title">3.1. Comparison of the Expected Information Gain Method with the Tornado Method</h3>
+<p>The expected information gain can represent a significant improvement over the tornado method in certain cases. To see this, consider a toy situation in which one could apply one of two possible tests <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm56"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm57"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> to a hypothesis <em>H</em>. All three nodes take only True/False values, and we assume that the prior probabilities on <em>H</em> are
+</p>
+<table class="disp-formula p" id="disp-formula15"><tr><td class="formula"><math id="mm58" display="block"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.5</mn><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>One situation where the expected information gain is significantly better than the tornado method is when <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm59"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> is a test that rarely takes the value True but is very probative when it takes the value True. For instance, let the conditional probability table of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm60"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> be
+</p>
+<table class="disp-formula p" id="disp-formula16"><tr><td class="formula"><math id="mm61" display="block"><mrow><mfenced separators="" open="{" close=""><mtable><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.1</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.9</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.01</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.99</mn><mo>.</mo></mrow></mtd></mtr></mtable></mfenced></mrow></math></td></tr></table>
+<p>This gives <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm62"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.055</mn></mrow></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm63"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.945</mn></mrow></mrow></math></span>.</p>
+<p>For <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm64"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>, instead, we will assume a more balanced probability of obtaining the value True or False, taking the conditional probability table CPT
+</p>
+<table class="disp-formula p" id="disp-formula17"><tr><td class="formula"><math id="mm65" display="block"><mrow><mfenced separators="" open="{" close=""><mtable><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.7</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.3</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.5</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.5</mn><mo>,</mo></mrow></mtd></mtr></mtable></mfenced></mrow></math></td></tr></table>
+<p>
+which gives the probabilities <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm66"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.6</mn></mrow></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm67"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.4</mn></mrow></mrow></math></span>.</p>
+<p>Using the tornado method, we have
+</p>
+<table class="disp-formula p" id="disp-formula18"><tr><td class="formula"><math id="mm68" display="block"><mrow><mrow><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo></mrow><mo>−</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>0.90909</mn><mo>−</mo><mn>0.47619</mn><mo>=</mo><mn>0.4329</mn><mo>,</mo></mrow></mrow></math></td></tr></table>
+<table class="disp-formula p" id="disp-formula19"><tr><td class="formula"><math id="mm69" display="block"><mrow><mrow><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo></mrow><mo>−</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>0.58333</mn><mo>−</mo><mn>0.375</mn><mo>=</mo><mn>0.20833</mn><mo>,</mo></mrow></mrow></math></td></tr></table>
+<p>
+so the impact of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm70"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> is significantly higher than that of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm71"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>. However, it is immediately obvious in a practical sense that, if only one test can be done, it is much more likely to be useful to perform <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm72"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> since <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm73"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> has over 90% chance of coming up False, which gives almost no information with respect to the prior <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm74"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.5</mn></mrow></mrow></math></span>, since <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm75"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.4762</mn></mrow></mrow></math></span>.</p>
+<p>The expected information gain method yields a result much closer to this intuitive reasoning; namely, we have
+</p>
+<table class="disp-formula p" id="disp-formula20"><tr><td class="formula"><math id="mm76" display="block"><mrow><mrow><msubsup><mi>I</mi><msub><mi>E</mi><mn>1</mn></msub><mi>H</mi></msubsup><mo>=</mo><mn>0.002147</mn><mo>,</mo><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mspace width="4pt"></mspace><mspace width="4pt"></mspace><msubsup><mi>I</mi><msub><mi>E</mi><mn>2</mn></msub><mi>H</mi></msubsup><mo>=</mo><mn>0.021</mn><mo>,</mo></mrow></mrow></math></td></tr></table>
+<p>
+so that the expected effect of the second test is, by this measure, ten times greater than the first one.</p></section><section id="sec3dot2-entropy-20-00856"><h3 class="pmc_sec_title">3.2. Comparison of the Expected Information Gain Method with the Single Missing Item Method</h3>
+<p>These two methods yield quite different results, which is not surprising as they are not measuring precisely the same thing. The single missing item method determines the difference to the probability of guilt of the absence of each item of evidence (a negative test result) if all the other items of evidence are present (positive test results). Its impact on the probability of guilt can be viewed as a crude measure of its probative value.</p>
+<p>The weakness of this method for measuring the impact of a given item of evidence is that it does not take into account the probability, which can be significant, of the absence of other items of evidence (negative test results). This can skew the impact results similarly to the Tornado method. For example, in the previous example, the impact of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm77"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> is equal to 0.04 and the impact of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm78"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> is just 0.07424. The greater the likelihood that the tests will produce non-positive results, the greater the possibility that the single missing item method, which relies only on positive test results for the remaining items, may give rise to unrealistic impact results.</p></section><section id="sec3dot3-entropy-20-00856"><h3 class="pmc_sec_title">3.3. Comparison of the Tornado and Single Missing Item Methods</h3>
+<p>Since we have already shown that the expected information gain is superior to the other two methods, we do not need to make a direct comparison between them. However, it may be useful to briefly describe their difference. Since both methods only take Boolean values into account, we may assume that we have a Boolean network. The impacts on the guilt hypothesis of these two methods are actually measuring very different things, since the single missing item method makes the simple (static) assumption that the outcomes of all other evidential tests are positive, whereas the tornado method is dynamic in its treatment of the possible outcomes of the remaining evidential tests. Depending on the situation, it is not possible to say that one is better than the other. To see the difference, consider the simple network of the previous form, with a main node <em>H</em> connected to two test nodes <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm79"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm80"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>, which are independent from each other.</p>
+<p>Imagine a situation with 50–50 priors on <em>H</em>, such that <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm81"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>T</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>T</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.7</mn></mrow></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm82"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>T</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>F</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.3</mn></mrow></mrow></math></span>, whereas <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm83"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>T</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>T</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.8</mn></mrow></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm84"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo>=</mo><mi>T</mi><mo stretchy="false">|</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>F</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.4</mn></mrow></mrow></math></span>, so that <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm85"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm86"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> have identical impact according to the tornado method. One can solve Bayes formula using these probabilities and find that they correspond to the following conditional probability table (CPTs):</p>
+<table class="disp-formula p" id="disp-formula21"><tr><td class="formula"><math id="mm87" display="block"><mrow><mfenced separators="" open="{" close=""><mtable><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.7</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.3</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.3</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>1</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.7</mn><mo>,</mo></mrow></mtd></mtr></mtable></mfenced></mrow></math></td></tr></table>
+<p>
+and
+</p>
+<table class="disp-formula p" id="disp-formula22"><tr><td class="formula"><math id="mm88" display="block"><mrow><mfenced separators="" open="{" close=""><mtable><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.4</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>True</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.6</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>True</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.9</mn><mo>,</mo></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>P</mi><mo stretchy="false">(</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>False</mi><mo stretchy="false">|</mo><mi>H</mi><mo>=</mo><mi>False</mi><mo stretchy="false">)</mo><mo>=</mo><mn>0.1</mn><mo>.</mo></mrow></mtd></mtr></mtable></mfenced></mrow></math></td></tr></table>
+<p>If we then use these values to compare the two tests using the single missing item method, we find that <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm89"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> has more impact than <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm90"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span>. In this instance, this result may correspond more to intuition in the sense that, if one had to choose between <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm91"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm92"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>, one might choose to go for <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm93"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span> in the hopes of getting the maximal possible probability result of 80% chance that <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm94"><mrow><mrow><mi>H</mi><mo>=</mo><mi>T</mi></mrow></mrow></math></span> (i.e., that the suspect is guilty) if <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm95"><mrow><mrow><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mi>T</mi></mrow></mrow></math></span>, a level of certainty that none of the other possibilities affords. However, intuition is difficult to quantify and there can be other examples where the opposite can hold.</p></section></section><section id="sec4-entropy-20-00856"><h2 class="pmc_sec_title">4. The Bit Torrent Case</h2>
+<section id="sec4dot1-entropy-20-00856"><h3 class="pmc_sec_title">4.1. Description of the Case</h3>
+<p>When illegally sharing a pirated copy of a film using the Bit Torrent peer-to-peer protocol, a user must go through several steps involving copying the film from an optical disk (DVD) to his computer, storing it in a digitized format, creating a .torrent file from the film file, publishing it online by messaging on newsgroups or other media, and activating the .torrent file (seeding). Furthermore, if another user downloads the uploaded film, this action will also leave digital traces on the source computer.</p>
+<p>A set of 18 digital forensic tests to search a suspect’s computer for evidence of these activities was developed by the Hong Kong police. According to the description given in [<a href="#B10-entropy-20-00856" class="usa-link" aria-describedby="B10-entropy-20-00856">10</a>,<a href="#B11-entropy-20-00856" class="usa-link" aria-describedby="B11-entropy-20-00856">11</a>], starting from the hypothesis <em>H</em> that the seized computer was used for this type of illegal file sharing, the forensic analyst will attempt to validate five hypotheses, by performing at least some of the 18 tests to check traces left on the suspect’s computer. In <a href="#entropy-20-00856-f001" class="usa-link">Figure 1</a>, the hypotheses and tests are given underneath the directed acyclic graph, which gives the possible causal relations between the hypotheses and the tests, with an arrow indicating possible causality. Note that some traces may have more than one possible cause, so that the directed acyclic graph is not a tree.</p>
+<figure class="fig xbox font-sm" id="entropy-20-00856-f001"><h4 class="obj_head">Figure 1.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=7512417_entropy-20-00856-g001.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5984/7512417/92c6ff3aba37/entropy-20-00856-g001.jpg" loading="lazy" height="997" width="758" alt="Figure 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/entropy-20-00856-f001/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>The Bit Torrent Bayesian network.</p></figcaption></figure><p>Each node in the graph can take one of three possible values: Yes, No, or Uncertain, according to whether or not the forensic analyst was able to determine the presence of absence of the specific trace. Observe that there can be actual evidence of the absence of a trace (“No” value of the node), as opposed to having no knowledge of whether the trace was ever there or not (“Uncertain”). For example, if an exterior internet source showing all uploads performed around a given time shows that the specific action of the suspect did not occur, this is evidence of absence of the trace, whereas, if the analyst cannot locate the log file on the suspect’s computer containing the list of actions performed at that time, then existence of the trace can be said to be uncertain.</p>
+<p>We observe that, once a given test has been performed and a result obtained, it can eliminate some of the possible results from other tests, due to the complexity of the dependencies between tests that is modelled by the network structure. For example, in the Bayesian network for the Bit Torrent case given below, if a positive result is obtained on the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm96"><mrow><mrow><msub><mi>E</mi><mn>8</mn></msub><mo>,</mo></mrow></mrow></math></span> then the “Uncertain” value becomes impossible for the tests <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm97"><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm98"><mrow><msub><mi>E</mi><mn>14</mn></msub></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm99"><mrow><msub><mi>E</mi><mn>15</mn></msub></mrow></math></span> and <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm100"><mrow><msub><mi>E</mi><mn>17</mn></msub></mrow></math></span>.</p>
+<p>The directed acyclic graph is made into a Bayesian network by equipping it with conditional probability tables (given in the <a href="#app1-entropy-20-00856" class="usa-link">Appendix A</a>), which indicate the probabilistic dependencies of each node on every combination of possible values of its parent nodes. The probability tables of the Bayesian network were established by interviewing 31 experienced digital forensic examiners [<a href="#B10-entropy-20-00856" class="usa-link" aria-describedby="B10-entropy-20-00856">10</a>].</p>
+<p>All of our computations with the Bayesian network were made using the AgenaRisk software produced by Fenton and Neil [<a href="#B12-entropy-20-00856" class="usa-link" aria-describedby="B12-entropy-20-00856">12</a>].</p></section><section id="sec4dot2-entropy-20-00856"><h3 class="pmc_sec_title">4.2. Application of the Expected Information Gain Method</h3>
+<p>Let us apply the information gain method to this case, in order to determine which of the 18 possible tests should be performed first, and when to stop testing.</p>
+<p>To apply the method, we start by equipping the Bayesian network above with <em>H</em> as the selected node, the 18 nodes <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm101"><mrow><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>E</mi><mn>18</mn></msub></mrow></mrow></math></span> as the test nodes, and the rest of the network in the unfixed state. All the nodes in this network take the three possible values Yes, No, Uncertain, so we have
+</p>
+<table class="disp-formula p" id="disp-formula23"><tr><td class="formula"><math id="mm102" display="block"><mrow><mrow><mi>g</mi><mo>=</mo><msub><mi>e</mi><mn>1</mn></msub><mo>=</mo><mo>⋯</mo><mo>=</mo><msub><mi>e</mi><mn>18</mn></msub><mo>=</mo><mn>3</mn><mo>.</mo></mrow></mrow></math></td></tr></table>
+<p>We let the indices <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm103"><mrow><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></mrow></math></span> correspond to Yes, No, Uncertain in that order. We have
+</p>
+<table class="disp-formula p" id="disp-formula24"><tr><td class="formula"><math id="mm104" display="block"><mrow><mrow><mi>P</mi><mfenced separators="" open="(" close=")"><mi>H</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mfenced><mo>=</mo><mi>P</mi><mfenced separators="" open="(" close=")"><mi>H</mi><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mfenced><mo>=</mo><mi>P</mi><mfenced separators="" open="(" close=")"><mi>H</mi><mo stretchy="false">(</mo><mn>3</mn><mo stretchy="false">)</mo></mfenced><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo></mrow></mrow></math></td></tr></table>
+<p>
+so the expression in (2) for the expected information gain on <em>H</em> given <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm105"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> simplifies to
+</p>
+<table class="disp-formula p" id="FD5-entropy-20-00856"><tr>
+<td class="formula"><math id="mm106" display="block"><mrow><mrow><msubsup><mi>I</mi><msub><mi>E</mi><mi>i</mi></msub><mi>H</mi></msubsup><mo>=</mo><mstyle displaystyle="true"><munderover><mo>∑</mo><mrow><mi>j</mi><mo>,</mo><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover></mstyle><mi>P</mi><mfenced separators="" open="(" close=")"><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>H</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced><mspace width="0.166667em"></mspace><msub><mo form="prefix">log</mo><mn>3</mn></msub><mfenced separators="" open="(" close=")"><mn>3</mn><mspace width="0.166667em"></mspace><mi>P</mi><mfenced separators="" open="(" close=")"><mrow><mi>H</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mfenced></mfenced><mo>.</mo><mspace width="2.em"></mspace></mrow></mrow></math></td>
+<td class="label">(6)</td>
+</tr></table>
+<p>The values of the expected information gains associated to each test, obtained by plugging the probabilities from the Bayesian network into (6), are given in the first column of <a href="#entropy-20-00856-t001" class="usa-link">Table 1</a> below. The only one which is significant for our purposes is the maximal one, which turns out to be <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm107"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span>, with an information gain rate of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm108"><mrow><mrow><mn>0.4083</mn></mrow></mrow></math></span>. Thus, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm109"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span> is the test that the expected information gain method recommends should be performed first.</p>
+<section class="tw xbox font-sm" id="entropy-20-00856-t001"><h4 class="obj_head">Table 1.</h4>
+<div class="caption p"><p>Tests ranked in order of expected information gain.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Test</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Information Gain Method</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Updated P (H = Yes)</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Increase in P (H = Yes)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">Prior</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.3333</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm133"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.4083</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.6829</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.3496</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm134"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0463</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7661</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0832</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm135"><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0198</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8196</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0535</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm136"><mrow><msub><mi>E</mi><mn>18</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0060</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8521</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0325</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm137"><mrow><msub><mi>E</mi><mn>4</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0044</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8803</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0282</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm138"><mrow><msub><mi>E</mi><mn>3</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0029</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8942</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0139</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm139"><mrow><msub><mi>E</mi><mn>16</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0018</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9049</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0107</td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm140"><mrow><msub><mi>E</mi><mn>11</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0014</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.9148</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0099</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/entropy-20-00856-t001/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><p>The next most important test would appear to be <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm110"><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></math></span>, but, in fact, as noted above, the actual result of the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm111"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span> may change that. For example, suppose we perform the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm112"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span> and obtain the result Yes. Then, we redo the procedure to select the most important test on the same Bayesian network, but now equipped with the selected node <em>H</em>, the set of terminal nodes <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm113"><mrow><msub><mi>E</mi><mi>i</mi></msub></mrow></math></span> for <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm114"><mrow><mrow><mn>1</mn><mo>≤</mo><mi>i</mi><mo>≤</mo><mn>18</mn></mrow></mrow></math></span>, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm115"><mrow><mrow><mi>i</mi><mo>≠</mo><mn>8</mn></mrow></mrow></math></span>, and the state of the rest of the network given by setting <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm116"><mrow><mrow><msub><mi>E</mi><mn>8</mn></msub><mo>=</mo><mi>Yes</mi></mrow></mrow></math></span>. If we run the same process again, we find that the most useful next test to perform turns out to be one of the equal tests <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm117"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> or <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm118"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>, with an information gain rate of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm119"><mrow><mrow><mn>0.047</mn></mrow></mrow></math></span> (these two tests will have an equal rank under any ranking method due to the fact that their conditional probability tables are identical). If we choose <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm120"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span> and assume the result is Yes, the next most useful test according to the method is then <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm121"><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></math></span>, and so forth.</p>
+<p>In <a href="#entropy-20-00856-t001" class="usa-link">Table 1</a>, we show the results obtained when all tests are assumed to give the result Yes. Note that the initial probability for <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm122"><mrow><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mrow></mrow></math></span> is <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm123"><mrow><mrow><mn>0.3333</mn><mo>⋯</mo></mrow></mrow></math></span>, and that the maximal possible probability of <em>H</em>, obtained when all 18 tests have been performed and yielded the result Yes, is equal to <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm124"><mrow><mrow><mn>0.9254</mn></mrow></mrow></math></span>, so that a higher probability than <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm125"><mrow><mrow><mn>0.9254</mn></mrow></mrow></math></span> for guilt cannot be obtained from the 18 tests alone. In order to convict the suspect, further evidence from another source may be necessary.</p>
+<p><em>Threshold of usefulness.</em> As noted above, the formula for the expected information gain gives a maximal possible value of 1 when the prior distribution is the equidistribution indicative of zero knowledge, as in the Bit Torrent case. Therefore, the values of the expected information gain associated to each test should be compared to the maximal possible value of 1. This gives an idea that the strongest test in the list above, <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm126"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span>, is slightly less than half as strong as a test that would provide absolute certainty.</p>
+<p>When time or resources are limited, it makes sense to stop performing tests when it is considered that the information gain is insignificant. A natural possibility is to decide to stop testing when the probability gain on the desired node drops below 1%. Thus, in the Bit Torrent case, it could be considered as not useful to perform the remaining <em>ten</em> tests which at most could raise the probability P (H = Yes) from 91.48% to 92.54%.</p></section><section id="sec4dot3-entropy-20-00856"><h3 class="pmc_sec_title">4.3. Application of the Tornado Method</h3>
+<p>We use the tornado method in the same way as the expected information gain: namely, at each stage of testing, we use the method to determine the optimal next test to perform. Assuming as above that each test performed obtains the result Yes, we obtain the results in <a href="#entropy-20-00856-t002" class="usa-link">Table 2</a>.</p>
+<section class="tw xbox font-sm" id="entropy-20-00856-t002"><h4 class="obj_head">Table 2.</h4>
+<div class="caption p"><p>Tests ranked in order of tornado impact.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Test</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Tornado Method Impact</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Updated P (H = Yes)</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Increase in P (H = Yes)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm141"><mrow><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.2913</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.6250</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.2916</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm142"><mrow><msub><mi>E</mi><mn>3</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.1824</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7226</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0976</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm143"><mrow><msub><mi>E</mi><mn>4</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.1374</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7878</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0652</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm144"><mrow><mrow><msub><mi>E</mi><mn>16</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0982</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8208</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0330</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm145"><mrow><mrow><msub><mi>E</mi><mn>11</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0735</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8481</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0273</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm146"><mrow><mrow><msub><mi>E</mi><mn>18</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0770</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8790</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0309</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm147"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0526</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8904</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0114</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm148"><mrow><msub><mi>E</mi><mn>5</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0419</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9026</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0123</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm149"><mrow><mrow><msub><mi>E</mi><mn>12</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0246</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9095</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0068</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm150"><mrow><mrow><msub><mi>E</mi><mn>15</mn></msub></mrow></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0234</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9148</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0054</td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm151"><mrow><msub><mi>E</mi><mn>6</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0140</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.9182</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0033</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/entropy-20-00856-t002/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><p>We observe that the tornado method does not give a good way to define a threshold of usefulness, as the information gain method does because the increase in probability of guilt does not form a monotone decreasing sequence; for example, the increase of 0.273 at <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm127"><mrow><msub><mi>E</mi><mn>11</mn></msub></mrow></math></span> is less than the increase of <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm128"><mrow><mrow><mn>0.309</mn></mrow></mrow></math></span> at the following step <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm129"><mrow><msub><mi>E</mi><mn>18</mn></msub></mrow></math></span>. Thus, it makes little sense to stop testing when the increase drops below <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm130"><mrow><mrow><mn>1</mn><mo>%</mo></mrow></mrow></math></span> since it may subsequently rise again. Rather, with this type of method, it is more reasonable to choose to stop at some threshold sufficiently near to the maximum result that could be obtained by getting positive results on all the tests. For instance, one could choose to stop testing once enough tests have been performed to obtain a probability of guilt within 1% of the maximum, since this means that no amount of further testing could provide more than a total of 1% increase in the probability of guilt. In the Bit Torrent example, eleven tests are necessary to reach a probability of guilt of 91.82%, which is within 1% of the maximum probability of guilt, 92.54%, which could be provided by obtaining positive results on all eighteen tests.</p>
+<p>The results of the tornado method are strikingly different from those of the information gain method, most particularly because the test <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm131"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span> which gives the highest rate of information gain does not even appear in the list of eleven tests with the highest tornado impact. The reason for this is that the initial state of the <span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm132"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span> node shows a very low probability of obtaining a positive result (9.3%), a very high probability of obtaining a negative result (51.2%) and especially a high probability of obtaining an uncertain result (39.5%) that plays no role in the tornado impact, but a significant role in the calculation of information gain. This difference between the two methods would not be as striking in the case of a Boolean network.</p></section><section id="sec4dot4-entropy-20-00856"><h3 class="pmc_sec_title">4.4. Application of the Single Missing Item Method</h3>
+<p>The single missing item method gives quite a different recommended order for testing. Like the tornado method, the increase in probability of guilt at each step is not a monotone decreasing sequence, so here again it makes more sense to choose a threshold near the maximum probability to dictate a reasonable stopping point. In the Bit Torrent example, we need to perform twelve tests, whose results are given in <a href="#entropy-20-00856-t003" class="usa-link">Table 3</a>, to arrive at the chosen threshold of 1%.</p>
+<section class="tw xbox font-sm" id="entropy-20-00856-t003"><h4 class="obj_head">Table 3.</h4>
+<div class="caption p"><p>Tests ranked in order of missing item impact.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Test</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Information Gain Method</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Updated P (H = Yes)</th>
+<th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Increase in P (H = Yes)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm152"><mrow><msub><mi>E</mi><mn>18</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0633</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.5410</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.1347</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm153"><mrow><msub><mi>E</mi><mn>13</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0265</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.6759</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0832</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm154"><mrow><msub><mi>E</mi><mn>3</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0146</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7590</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.1283</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm155"><mrow><msub><mi>E</mi><mn>1</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0097</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7790</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0199</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm156"><mrow><msub><mi>E</mi><mn>2</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0097</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.7828</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0039</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm157"><mrow><msub><mi>E</mi><mn>4</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0021</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8361</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0533</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm158"><mrow><msub><mi>E</mi><mn>16</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0013</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8643</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0245</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm159"><mrow><msub><mi>E</mi><mn>5</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0012</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8791</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0152</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm160"><mrow><msub><mi>E</mi><mn>6</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0012</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.8836</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0046</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm161"><mrow><msub><mi>E</mi><mn>8</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0011</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9118</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0305</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm162"><mrow><msub><mi>E</mi><mn>7</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0088</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.9120</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">0.0003</td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<span xmlns:mml="http://www.w3.org/1998/Math/MathML"><math id="mm163"><mrow><msub><mi>E</mi><mn>9</mn></msub></mrow></math></span>
+</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0071</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.9200</td>
+<td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0003</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/entropy-20-00856-t003/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section></section><section id="sec5-entropy-20-00856"><h2 class="pmc_sec_title">5. Conclusions</h2>
+<p>In terms of digital forensic investigation strategy, searching for evidential traces with a high potential impact on the main investigation hypothesis before those of low potential impact permits unpromising investigations to be abandoned prematurely with a consequent saving of investigative resources. The question of how best to accomplish this was raised in [<a href="#B13-entropy-20-00856" class="usa-link" aria-describedby="B13-entropy-20-00856">13</a>] and the single missing item was introduced for this purpose in [<a href="#B14-entropy-20-00856" class="usa-link" aria-describedby="B14-entropy-20-00856">14</a>]. The present work recalls that method and further presents two other methods for assessing impact of tests on the final result. These methods are introduced in the most general context, as techniques applied in the fully general situation of a Bayesian network with a given distinguished node (the main investigation hypothesis) and a set of terminal nodes (tests), intended to assess the impact of each test on the main hypothesis. The expected information gain method based on the Kullback–Leibler divergence has the advantage of best reflecting the different probabilities of the possible outcomes of each test, particularly the fact that these outcomes may not be Boolean, and furthermore it provides an intrinsic threshold of usefulness below which further testing may be considered as not sufficiently useful to pursue. Such a threshold can be particularly valuable and even indispensable in cases where it is impossible to perform all the tests, for example because one test uses up all of the testable material before another can be performed, for example when choosing between testing a mixed low-template crime-scene DNA sample for Y-haplotype or for genetic profile.</p>
+<p>In conclusion, we have demonstrated the superiority of the Kullback–Leibler divergence as a measure of impact, in the sense of information gain, over the tornado method and the single missing item method. We have shown how these three approaches can be applied to a real-world criminal case and have compared their outcomes in this actual context, noting how significantly they differ from one another. Finally, we have indicated how our results can be applied to generate more accurate, near-optimal, cost-effective forensic investigation strategies in criminal case investigations, thereby relieving somewhat the pressure on already overstretched law enforcement resources.</p></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>The authors would like to thank the Isaac Newton Institute for Mathematical Sciences, Cambridge, for support and hospitality during the programme <em>Probability and Statistics in Forensic Science</em> (FOS) where work on this article was undertaken. This work was supported by EPSRC Grant No. EP/K032208/1.</p></section><section id="app1-entropy-20-00856" class="app"><h2 class="pmc_sec_title">Appendix A</h2>
+<p>In this Appendix, we give the conditional probability tables for the Bayesian network model of the Bit Torrent case. The values contained in these tables were elicited from a questionnaire survey of 31 experienced digital forensic examiners within the Technical Crime Bureau of the Hong Kong Police and the Computer Forensic Laboratory of Hong Kong Customs. The sensitivity of the posterior output of the BitTorrent Bayesian network with respect to variations in the CPT values given below has been examined previously and was found to be remarkably low [<a href="#B15-entropy-20-00856" class="usa-link" aria-describedby="B15-entropy-20-00856">15</a>].</p>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5984/7512417/b90ab18d6d45/entropy-20-00856-i001.jpg" loading="lazy" height="921" width="331" alt="graphic file with name entropy-20-00856-i001.jpg"></p>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5984/7512417/0385e85dbc1a/entropy-20-00856-i002.jpg" loading="lazy" height="1090" width="350" alt="graphic file with name entropy-20-00856-i002.jpg"></p>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5984/7512417/c73792e1fa59/entropy-20-00856-i003.jpg" loading="lazy" height="539" width="346" alt="graphic file with name entropy-20-00856-i003.jpg"></p></section><section id="notes1"><h2 class="pmc_sec_title">Author Contributions</h2>
+<p>D.L., Conceptualization; L.S., Formal analysis; R.O., Investigation; L.S., R.O. and D.L., Methodology; L.S. and R.O., Validation; L.S., writing original draft; Writing review and editing, R.O. and D.L.</p></section><section id="notes2"><h2 class="pmc_sec_title">Funding</h2>
+<p>This research received no external funding.</p></section><section id="notes3"><h2 class="pmc_sec_title">Conflicts of Interest</h2>
+<p>The authors declare no conflict of interest.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="B1-entropy-20-00856">
+<span class="label">1.</span><cite>Pearl J.  Probabilistic Reasoning in Intelligent Systems. Morgan Kaufmann; San Francisco, CA, USA: 1997. </cite> [<a href="https://scholar.google.com/scholar_lookup?title=Probabilistic%20Reasoning%20in%20Intelligent%20Systems&amp;author=J.%20Pearl&amp;publication_year=1997&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B2-entropy-20-00856">
+<span class="label">2.</span><cite>Nelson J. Finding Useful Questions: On Bayesian Diagnosticity, Probability, Impact and Informtion Gain. Psychol. Rev. 2005;112:979–999. doi: 10.1037/0033-295X.112.4.979.</cite> [<a href="https://doi.org/10.1037/0033-295X.112.4.979" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16262476/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Psychol.%20Rev.&amp;title=Finding%20Useful%20Questions:%20On%20Bayesian%20Diagnosticity,%20Probability,%20Impact%20and%20Informtion%20Gain&amp;author=J.%20Nelson&amp;volume=112&amp;publication_year=2005&amp;pages=979-999&amp;pmid=16262476&amp;doi=10.1037/0033-295X.112.4.979&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B3-entropy-20-00856">
+<span class="label">3.</span><cite>Roche W., Shogenji T. Information and Inaccuracy. Br. J. Philos. Sci. 2018;69:577–604. doi: 10.1093/bjps/axw025.</cite> [<a href="https://doi.org/10.1093/bjps/axw025" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Br.%20J.%20Philos.%20Sci.&amp;title=Information%20and%20Inaccuracy&amp;author=W.%20Roche&amp;author=T.%20Shogenji&amp;volume=69&amp;publication_year=2018&amp;pages=577-604&amp;doi=10.1093/bjps/axw025&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B4-entropy-20-00856">
+<span class="label">4.</span><cite>Coenen A., Nelson J., Gureckis T. Asking the right questions about the psychology of human inquiry: Nine open challenges. Psychon. Bull. Rev. 2018:1–41. doi: 10.3758/s13423-018-1470-5.</cite> [<a href="https://doi.org/10.3758/s13423-018-1470-5" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29869025/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Psychon.%20Bull.%20Rev.&amp;title=Asking%20the%20right%20questions%20about%20the%20psychology%20of%20human%20inquiry:%20Nine%20open%20challenges&amp;author=A.%20Coenen&amp;author=J.%20Nelson&amp;author=T.%20Gureckis&amp;publication_year=2018&amp;pages=1-41&amp;pmid=29869025&amp;doi=10.3758/s13423-018-1470-5&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B5-entropy-20-00856">
+<span class="label">5.</span><cite>Nielson T.D., Jensen F.V.  Bayesian Networks and Decision Graphs. Springer Science and Business Media; Berlin, Germany: 2018. </cite> [<a href="https://scholar.google.com/scholar_lookup?title=Bayesian%20Networks%20and%20Decision%20Graphs&amp;author=T.D.%20Nielson&amp;author=F.V.%20Jensen&amp;publication_year=2018&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B6-entropy-20-00856">
+<span class="label">6.</span><cite>Kullback S., Leibler R.A. On information and sufficiency. Ann. Math. Stat. 1951;22:79–86. doi: 10.1214/aoms/1177729694.</cite> [<a href="https://doi.org/10.1214/aoms/1177729694" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann.%20Math.%20Stat.&amp;title=On%20information%20and%20sufficiency&amp;author=S.%20Kullback&amp;author=R.A.%20Leibler&amp;volume=22&amp;publication_year=1951&amp;pages=79-86&amp;doi=10.1214/aoms/1177729694&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B7-entropy-20-00856">
+<span class="label">7.</span><cite>Howard R. Decision Analysis: Practice and Promise. Manag. Sci. 1988;34:679–695. doi: 10.1287/mnsc.34.6.679.</cite> [<a href="https://doi.org/10.1287/mnsc.34.6.679" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Manag.%20Sci.&amp;title=Decision%20Analysis:%20Practice%20and%20Promise&amp;author=R.%20Howard&amp;volume=34&amp;publication_year=1988&amp;pages=679-695&amp;doi=10.1287/mnsc.34.6.679&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B8-entropy-20-00856">
+<span class="label">8.</span><cite>Overill R., Chow K.P. Measuring Evidential Weight in a Digital Forensic Investigations; Proceedings of the 14th Annual IFIP WG11.9 International Conference on Digital Forensics; New Delhi, India. 3–5 January 2018; pp. 3–10.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%2014th%20Annual%20IFIP%20WG11.9%20International%20Conference%20on%20Digital%20Forensics&amp;title=Measuring%20Evidential%20Weight%20in%20a%20Digital%20Forensic%20Investigations&amp;author=R.%20Overill&amp;author=K.P.%20Chow&amp;pages=3-10&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B9-entropy-20-00856">
+<span class="label">9.</span><cite>Kwan Y.-K.  Ph.D. Thesis. The University of Hong Kong; Hong Kong, China: 2011. The Research of Using Bayesian Inferential Network in Digital Forensic Analysis.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Ph.D.%20Thesis&amp;author=Y.-K.%20Kwan&amp;publication_year=2011&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B10-entropy-20-00856">
+<span class="label">10.</span><cite>Ming C.N.  Magistrates’ Court at Tuen Mun, Hong Kong Special Administrative Region v. TMCC 1268/2005; Hong Kong, China: 2005. </cite> [<a href="https://scholar.google.com/scholar_lookup?title=Magistrates%E2%80%99%20Court%20at%20Tuen%20Mun,%20Hong%20Kong%20Special%20Administrative%20Region%20v&amp;author=C.N.%20Ming&amp;publication_year=2005&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B11-entropy-20-00856">
+<span class="label">11.</span><cite>Kwan M., Chow K.-P., Law F., Lai P. Reasoning about Evidence using Bayesian Networks; Proceedings of the IFIP WG11.9 International Conference on Digital Forensics; Tokyo, Japan. 27–30 January 2008; pp. 141–155.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%20IFIP%20WG11.9%20International%20Conference%20on%20Digital%20Forensics&amp;title=Reasoning%20about%20Evidence%20using%20Bayesian%20Networks&amp;author=M.%20Kwan&amp;author=K.-P.%20Chow&amp;author=F.%20Law&amp;author=P.%20Lai&amp;pages=141-155&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B12-entropy-20-00856">
+<span class="label">12.</span><cite>Fenton N., Neil M. AgenaRisk Open Source Software, See Also AgenaRisk 7.0 User Manual.  [(accessed on 31 May 2018)];2016  Available online:  <a href="http://www.agenarisk.com/resources/AgenaRisk_User_Manual.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.agenarisk.com/resources/AgenaRisk_User_Manual.pdf</a>.</cite>
+</li>
+<li id="B13-entropy-20-00856">
+<span class="label">13.</span><cite>Overill R.E., Kwan Y.-K., Chow K.P., Lai K.-Y., Law Y.-W. A Cost-Effective Digital Forensics Investigation Model; Proceedings of the 5th Annual IFIP WG 11.9 International Conference on Digital Forensics; Orlando, FL, USA. 25–28 January 2009; pp. 193–202.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%205th%20Annual%20IFIP%20WG%2011.9%20International%20Conference%20on%20Digital%20Forensics&amp;title=A%20Cost-Effective%20Digital%20Forensics%20Investigation%20Model&amp;author=R.E.%20Overill&amp;author=Y.-K.%20Kwan&amp;author=K.P.%20Chow&amp;author=K.-Y.%20Lai&amp;author=Y.-W.%20Law&amp;pages=193-202&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B14-entropy-20-00856">
+<span class="label">14.</span><cite>Overill R.E. ‘Digital Forensonomics’—The Economics of Digital Forensics; Proceedings of the 2nd International Workshop on Cyberpatterns (Cyberpatterns 2013); Abingdon, UK. 8–9 July 2013.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%202nd%20International%20Workshop%20on%20Cyberpatterns%20(Cyberpatterns%202013)&amp;title=%E2%80%98Digital%20Forensonomics%E2%80%99%E2%80%94The%20Economics%20of%20Digital%20Forensics&amp;author=R.E.%20Overill&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="B15-entropy-20-00856">
+<span class="label">15.</span><cite>Overill R.E., Silomon J.A.M., Kwan Y.-K., Chow K.P., Law Y.-W., Lai K.Y. Sensitivity Analysis of a Bayesian Network for Reasoning about Digital Forensic Evidence; Proceedings of the 2010 3rd International Conference on Human-Centric Computing; Cebu, Philippines. 11–13 August 2010; pp. 228–232.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%202010%203rd%20International%20Conference%20on%20Human-Centric%20Computing&amp;title=Sensitivity%20Analysis%20of%20a%20Bayesian%20Network%20for%20Reasoning%20about%20Digital%20Forensic%20Evidence&amp;author=R.E.%20Overill&amp;author=J.A.M.%20Silomon&amp;author=Y.-K.%20Kwan&amp;author=K.P.%20Chow&amp;author=Y.-W.%20Law&amp;pages=228-232&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from Entropy are provided here courtesy of <strong>Multidisciplinary Digital Publishing Institute  (MDPI)</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.3390/e20110856"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/entropy-20-00856.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (444.5 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/7512417/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/7512417/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7512417%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7512417/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC7512417/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC7512417/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/33266580/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC7512417/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/33266580/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC7512417/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/7512417/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="SU0qUd7KdT3W2FH5oiWZY6UE92VMZr77FWlNUchok7QeQWUtSSUb0ylkTc5Kz7pH">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+        <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/math-CjjrG8hn.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>
+
